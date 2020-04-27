@@ -19,6 +19,26 @@
          "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
          "context": [""]
         },
+        {"tag": "jumbo",
+         "patterns": ["Jumbo", "birthday", "age"],
+         "responses": ["Jumbo's birthday is on April 25th", "Jumbo was borned on 2018"],
+         "context": [""]
+        },        
+       
+        {"tag": "coronavirus",
+         "patterns": ["covid19", "coronavirus", "wuhan virus", "virus"],
+         "responses": ["For information on covid19, please visit https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html"],
+         "context": [""]
+        },         
+       
+  
+       
+       
+       
+       
+       
+       
+        
         {"tag": "options",
          "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
          "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
